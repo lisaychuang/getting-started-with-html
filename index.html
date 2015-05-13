@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    <meta charset="UTF-8">
+
+
+    <title>A Pen by  Lisa Huang</title>
+    
+    
+    
+    
+    
+    
+    
+    
+  </head>
+
+  <body>
+
+    <title> Lisa 's Udacity Nanodegree - <b>Introduction to Programming</b> Notes </title>
+
+<h1>Session 0 NOTES</h1>
+<h2> Basics of the Web </h2>
+The World Wide Web (WWW) is a collection of HTML documents:
+<p>HTML = HyperText Markup Language, used to tell computers what to do / display on webpages. HTML codes documents, which form the heart of the web:<br>
+  + Text Content = what you see<br>
+  + Mark Up = look of content/ arrangement, can be stylized using CSS) <br>
+  + Reference to other documents (e.g. images, videos)<br>
+  + Links to other pages using Hyperlinks <br><em> * Hyperlinks were invented in 1990s.</em><br><br>
+In another word, coding is when programmers (or you!) write text in instructional language that the computer understands.
+</p>
+
+<p>On our computer, we use web browsers (e.g. Chrome, IE) to make request to servers - a collection of computers sitting in a room storing files and data, using HTTP. HTTP are the protocols browsers used to communicate with servers. 
+
+<h2> Computers are stupid </h2>
+<p>Computers are sensitive to typos, and small mistakes such as missing an End Tag will affect the page layout! Developers must then "debug" to track & correct their mistakes. </p>
+
+<h2> HTML Markup </h2>
+<p> Markups are made up of <em>"Tags"</em> , which looks like this<br>
+  <b>  < name of tag > Contents < /name of tag> </b></p>
+ 
+    <p> First tag = Opening Tag <em>< name ></em> , which gives instruction to how the content should look or be arranged <br>
+ After the content, we will add a Closing tag <em>< /name ></em> , to signal the end of the instruction (eg end of Bold/Italic) <br>
+      This structure is referred to as a HTML Element</p>
+  
+      <h2> Basic HTML Tags </h2><p>
+      <b> + < b > </b>: We can <b> BOLD </b> text using this tag (without the space between < >) <br>
+        <b> + < em > </b>: We can <em> Italicize </em> text using this tag <br></p>
+  <h2>  HTML Attributes </h2><p>
+     An attribute is a property of an HTML element. It looks like this: <br>
+      <b>  < TAG ATTR = "value" > Contents < /tag > </b><br><br>
+        
+        An example of an attribute is the ANCHOR = < a > tag. <br> To create a link to an external page, use: </b><br>
+        <br><b>+ < a href = "link" > </b>: href = attribute name , and the link = URL to link to. <br>
+        <br>We can <a href="http://learn-2-code.appspot.com/code_pen_examples/"> Create a link to Andy's Codepen examples </a> using this tag <br>
+        <br><b>+ < img src = "link" alt = "text"> </b>: img = images , src = source, link = URL to source image from, alt = alternative display, text = alternative text shown when image doesn't load, useful for broken request and blind people! :) <br>
+        <br>We can display a photo of Andy<img src="http://learn-2-code.appspot.com/images/andy.png" alt="Photo of Andy"> using this tag. <br><br>
+        <em>** These tags are all inline elements</em></p>
+        
+       <h2> White spaces: in-line v.s. blocks</h2><p>
+        When coding a web document using HTML, it ignores white spaces (eg tab, multiple spaces etc). Useful HTML tags to create line breaks are: <br><br>
+        
+        <b>< br > </b>: single inline break, which ends a line and wrap to the next line. It is a "void" tag which doesn't require a closing tag < /br > <br>
+        <b>< p > </b>: Whereas the P tag Creates a block paragraph, creating an invisible box around the text... it can have  height & width. P tag will require a closing tag.</p>
+        
+        <h2> Container Elements: Span & Div</h2><p>
+        Both these elements contain content, and can have style attached to them via CSS to change the way the text will look/ their layout in the document.<br>
+        <b>+ < span > </b>:  <span>This is what a SPAN line looks like </span><br> <em>* SPAN creates an inline break, similar to the BR tag </em><br>
+          <b>+ < div > </b>: <div>This is what a DIV line looks like</div><br>
+            <em>* DIV creates another block, similar to the P tag for paragraph text.</em></p>
+          <h2> HTML Documents </h2><p>
+          A complete HTML document has a DOC type, opening & closing HTML tag, the HEAD (includes title of the document,  meta data / CSS / Javascript), and Body Tag = which includes most of the content in the document. <br>
+          In this course, we will be focusing on the BODY tags to generate content of a HTML document.
+    
+    
+    
+    
+    
+  </body>
+</html>
